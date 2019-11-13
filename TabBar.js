@@ -192,12 +192,13 @@ const styles = StyleSheet.create({
     content: {
         flexDirection:'column',
         zIndex: 0,
-        width: (Dimensions.get('window').width - 30),
-        marginBottom: '4%',
-        left: '4%',
-        right: '4%',
+        width: (Dimensions.get('window').width - 20),
+        marginBottom: '0%',
+        left: '0%',
+        right: '0%',
         position: 'absolute',
-        bottom: '1%',
+        bottom: '0%',
+        marginHorizontal: 10
     },
     subContent: {
         flexDirection: 'row',
@@ -223,5 +224,3 @@ const styles = StyleSheet.create({
         bottom: 18,
     },
 });
-
-
